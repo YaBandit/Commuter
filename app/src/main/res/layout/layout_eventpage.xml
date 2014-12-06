@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbackground">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/EventImage"
+                android:background="@drawable/howlwide"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Howl Pub Crawl"
+                android:id="@+id/EventTitle"
+                android:textStyle="bold" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/AttendeesPhotosScroll"
+                android:background="#d6d7d9"
+                android:fillViewport="false">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:id="@+id/imageView2"
+                    android:background="@drawable/howlsmall"/>
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#d6d7d9"
+                android:text="BIO: This is going to be a really, really long text box in which a bunch of stuff is put, and hopefully it will exapnd the box to look a correct. How now brown cow."
+                android:id="@+id/EventDetails"
+                android:textColor="@android:color/black"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#d6d7d9"
+                android:text="LOCATION: Canary Wharf"
+                android:id="@+id/EventsLocation"
+                android:textColor="@android:color/black"
+                android:padding="5dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

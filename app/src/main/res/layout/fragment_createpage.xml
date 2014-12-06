@@ -1,0 +1,10 @@
+<com.evolve_media.source.howl.main.AppMenu.FlyOutContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include layout="@layout/layout_menu"/>
+
+    <include layout="@layout/layout_createmain"/>
+
+</com.evolve_media.source.howl.main.AppMenu.FlyOutContainer>

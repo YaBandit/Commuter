@@ -1,0 +1,135 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#474747"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical|left">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="15dp"
+            android:text="MENU"
+            android:textColor="#CCCCCC"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:id="@+id/textView" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|right">
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_margin="12dp"
+                android:gravity="center_vertical|left"
+                android:onClick="toggleMenu"
+                android:background="@drawable/button_menu"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="0dp"
+                android:onClick="toggleMenu"
+                android:text="Create Event"
+                android:background="#666666"
+                android:gravity="center_vertical"
+                android:paddingLeft="25dp"
+                android:textColor="#CCCCCC"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:id="@+id/CreateEventMenuButton" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:onClick="toggleMenu"
+                android:text="Attend Event"
+                android:background="#666666"
+                android:gravity="center_vertical"
+                android:paddingLeft="25dp"
+                android:textColor="#CCCCCC"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:id="@+id/AttendEventMenuButton" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:onClick="toggleMenu"
+                android:text="Profile"
+                android:background="#666666"
+                android:gravity="center_vertical"
+                android:paddingLeft="25dp"
+                android:textColor="#CCCCCC"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:id="@+id/ProfileMenuButton" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:onClick="toggleMenu"
+                android:text="Help"
+                android:background="#666666"
+                android:gravity="center_vertical"
+                android:paddingLeft="25dp"
+                android:textColor="#CCCCCC"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:id="@+id/HelpMenuButton" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:onClick="toggleMenu"
+                android:text="Report"
+                android:background="#666666"
+                android:gravity="center_vertical"
+                android:paddingLeft="25dp"
+                android:textColor="#CCCCCC"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:id="@+id/ReportMenuButton" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

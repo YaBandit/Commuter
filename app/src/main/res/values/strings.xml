@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Howl</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_createApp">Create</string>
+    <string name="title_landingPage">Howl</string>
+    <string name="title_attendApp">Attend</string>
+    <string name="string_attendbutton">Attend</string>
+    <string name="string_createbutton">Create</string>
+
+</resources>

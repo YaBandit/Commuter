@@ -1,0 +1,26 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left|center_vertical"
+    android:background="#ffffffff">
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:gravity="left"
+        android:id="@+id/toggleButton"
+        android:background="@drawable/button_menu"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp" />
+
+    <FrameLayout
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:background="@drawable/title_howl"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:layout_centerInParent="true"></FrameLayout>
+
+</RelativeLayout>

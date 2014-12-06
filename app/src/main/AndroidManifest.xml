@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.evolve_media.source.howlproper.app" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".Startup.Splash"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.evolve_media.source.howlproper.app.MAIN"/>
+                <category android:name="android.intent.catagory.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LandingPage"
+            android:theme="@style/NoActionBar"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.evolve_media.source.howlproper.app.LandingPage" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CreateEventActivty"
+            android:label="Howl" >
+            <intent-filter>
+                <action android:name="com.evolve_media.source.howlproper.app.CreateEventActivty"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AttendEventActivity"
+            android:label="Howl" >
+            <intent-filter>
+                <action android:name="com.evolve_media.source.howlproper.app.AttendEventActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.evolve_media.source.howlproper.app.ProfileActivity"
+            android:label="Howl" >
+            <intent-filter>
+                <action android:name="com.evolve_media.source.howlproper.app.ProfileActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.evolve_media.source.howlproper.app.Menu"
+            android:label="Howl" >
+            <intent-filter>
+                <action android:name="com.evolve_media.source.howlproper.app.Menu"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.evolve_media.source.howlproper.app.EventPageClass"
+            android:label="Howl" >
+            <intent-filter>
+                <action android:name="com.evolve_media.source.howlproper.app.EventPageClass"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.evolve_media.source.howlproper.app.EventsList"
+            android:label="Howl" >
+            <intent-filter>
+                <action android:name="com.evolve_media.source.howlproper.app.EventsList"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.evolve_media.source.howlproper.app.MenuActivity"
+            android:label="Howl" >
+            <intent-filter>
+                <action android:name="com.evolve_media.source.howlproper.app.MenuActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

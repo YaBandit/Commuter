@@ -1,0 +1,72 @@
+<Events>
+
+    <Event name = "0000001">
+        <EventName>Pub Crawl</EventName>
+        <Location>Canary Wharf</Location>
+        <Time>18.00</Time>
+        <Date>
+            <Day>1</Day>
+            <Month>12</Month>
+            <Yeasr>2014</Yeasr>
+        </Date>
+        <Attending>
+            <FirstName>Dylan</FirstName>
+            <SecondName>Black</SecondName>
+        </Attending>
+        <Attending>
+            <FirstName>Alex</FirstName>
+            <SecondName>Clark</SecondName>
+        </Attending>
+        <Attending>
+            <FirstName>Frodo</FirstName>
+            <SecondName>Baggins</SecondName>
+        </Attending>
+    </Event>
+
+    <Event name = "0000002">
+        <EventName>Football Match</EventName>
+        <Location>Aresenal</Location>
+        <Time>19.00</Time>
+        <Date>
+            <Day>2</Day>
+            <Month>12</Month>
+            <Yeasr>2014</Yeasr>
+        </Date>
+        <Attending>
+            <FirstName>Dylan</FirstName>
+            <SecondName>Black</SecondName>
+        </Attending>
+        <Attending>
+            <FirstName>Alex</FirstName>
+            <SecondName>Clark</SecondName>
+        </Attending>
+        <Attending>
+            <FirstName>Frodo</FirstName>
+            <SecondName>Baggins</SecondName>
+        </Attending>
+    </Event>
+
+    <Event name = "0000003">
+        <EventName>Cocktail Party</EventName>
+        <Location>Gothan</Location>
+        <Time>22.00</Time>
+        <Date>
+            <Day>3</Day>
+            <Month>12</Month>
+            <Yeasr>2014</Yeasr>
+        </Date>
+        <Attending>
+            <FirstName>Batman</FirstName>
+            <SecondName>Wayne</SecondName>
+        </Attending>
+        <Attending>
+            <FirstName>Robin</FirstName>
+            <SecondName>Bellend</SecondName>
+        </Attending>
+        <Attending>
+            <FirstName>Alfred</FirstName>
+            <SecondName>Butler</SecondName>
+        </Attending>
+    </Event>
+
+</Events>
